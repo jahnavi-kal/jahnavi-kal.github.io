@@ -22,8 +22,7 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/jahnavi-kal.png"
-              alt="Jahnavi Kalpathy"
+              src="./assets/png/home-ico.png"
               class="header__logo-img"
             />
           </div>
@@ -35,12 +34,10 @@
               <a href="./index.html" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
+              <a href="./index.html#about" class="header__link"> About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#projects" class="header__link"> Projects </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#education" class="header__link"> Education </a>
@@ -87,13 +84,22 @@
         <h1 class="heading-primary">Jahnavi Kalpathy</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            Welcome to my portfolio! I am a<br>Data Scientist - Systems Engineer - Sustainability Advocate
+            <style>
+              #profile {
+                border-radius: 15%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+              }
+              </style>
+            <img id="profile"
+            src="./assets/jpeg/jahnavi-kalpathy.jpeg"
+            width="300"
+            />
+            <br>
+            Welcome to my portfolio! I am a<br>Systems Engineer - Data Explorer - Sustainability Advocate
           </p>
         </div>
-        <div class="home-hero__cta">
-          <a href="#projects" class="btn btn--bg">Projects</a>
-        </div>
       </div>
+      </style>
       <div class="home-hero__socials">
         <div class="home-hero__social">
           <a href="https://www.linkedin.com/in/jahnavik/" class="home-hero__social-icon-link">
@@ -132,17 +138,17 @@
           </a>
         </div>
       </div>
-      <div class="home-hero__mouse-scroll-cont">
+      <!-- <div class="home-hero__mouse-scroll-cont">
         <div class="mouse"></div>
-      </div>
+      </div> -->
     </section>
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            I am a Data Scientist coming from systems engineering, with a passion for sustainability. 
-            My experience in telematics and testing in the automotive industry shaped how I understand 
+            I am an engineer and analyst, with a passion for sustainability. 
+            My experience as a systems test engineer in the automotive industry shaped how I understand 
             customer-facing products and work with diverse stakeholders. I hope to leverage my data science 
             skills in Regression and Classification and collaborate with peers to answer data-driven questions.
           </span>
@@ -160,23 +166,27 @@
               <div class="skills__skill">Pandas</div>
               <div class="skills__skill">Numpy</div>
               <div class="skills__skill">Scikit-learn</div>
-              <div class="skills__skill">gretl</div>
               <div class="skills__skill">SQL</div>
               <div class="skills__skill">Tensorflow</div>
               <div class="skills__skill">Keras</div>
-              <div class="skills__skill">Web Scraping</div>
               <div class="skills__skill">Streamlit</div>
+              <div class="skills__skill">Data Visualization</div>
               <div class="skills__skill">Matplotlib</div>
               <div class="skills__skill">Seaborn</div>
               <div class="skills__skill">Plotly</div>
               <div class="skills__skill">Tableau</div>
               <div class="skills__skill">JupyterLab</div>
               <div class="skills__skill">GitHub</div>
+              <div class="skills__skill">System Validation</div>
+              <div class="skills__skill">Error Analysis</div>
+              <div class="skills__skill">On-Board Diagnostics</div>
+              <div class="skills__skill">Test Catalog Development</div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -185,6 +195,8 @@
             Here are a few of the data science projects I've worked on.  
             Checkout my <a href="https://github.com/jahnavi-kal" target="_blank">
               <span style="color: blue"><u>Github profile</u></span></a> for more!
+              Or view my <a href="./assets/Jahnavi_Kalpathy_Resume.pdf" target="_blank">
+                <span style="color: blue"><u>resume</u></span></a> for more work experience.
           </span>
         </h2>
 
@@ -193,6 +205,7 @@
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/modeling-energy-efficiency.jpeg"
+                
                 alt="NYC buildings icon"
                 class="projects__row-img"
                 loading="lazy"
@@ -219,6 +232,7 @@
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/community-health-image.jpeg"
+                
                 alt="China Study image"
                 class="projects__row-img"
                 loading="lazy"
@@ -244,6 +258,7 @@
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/nlp-subreddit-classification.png"
+                
                 alt="Subreddit icons"
                 class="projects__row-img"
                 loading="lazy"
@@ -270,6 +285,7 @@
             <div class="projects__row-img-cont">
               <img
                 src="./assets/jpeg/housing-price-regression.jpeg"
+                
                 alt="Housing Price icon"
                 class="projects__row-img"
                 loading="lazy"
@@ -304,14 +320,14 @@
               <h4>Data Science Immersive Fellow</h4>
               <span class="education-date">Oct 2022 - Feb 2023</span>
               <p>
-                Successfully completed 480 hours of expert-led, hands-on, instruction in 
-                data analytics, data science, and Machine Learning
+                500 hours of expert-led, hands-on instruction in 
+                data science, analytics, and Machine Learning
               </p>
           </div>
           </span>
           <span class="heading-sec__sub">
             <div class="education-block">
-              <h3>Massachusetts Institute of Technology</h3>
+              <h3><br>Massachusetts Institute of Technology</h3>
               <h4>B.S. Mechanical Engineering</h4>
               <span class="education-date">Aug 2012 - May 2017</span>
               <p>
@@ -329,7 +345,7 @@
       <div class="main-container">
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
+          &copy; Copyright 2021. Developed by
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
             >Ram Maheshwari</a
           >
